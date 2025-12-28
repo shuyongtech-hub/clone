@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub | Modern Development Platform</title>
+    <meta name="description" content="A modern web application built with cutting-edge technologies.">
+    <!-- Typography: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main Navigation">
+            <div class="nav__logo">
+                <a href="#" class="logo-link">GitHub</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#features" class="nav__link">Features</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <button class="btn btn--secondary btn--small">Sign In</button>
+                <div class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <span class="badge">New: GitHub Actions v4</span>
+                    <h1 class="hero__title">Build for the <br><span class="text-gradient">Future of Web</span></h1>
+                    <p class="hero__description">
+                        Experience a modern workflow designed for speed, security, and scalability. Start building your next big idea today.
+                    </p>
+                    <div class="hero__btns">
+                        <button class="btn btn--primary">Get Started Free</button>
+                        <button class="btn btn--outline">View Demo</button>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <div class="hero__glow"></div>
+                    <div class="hero__card-mockup">
+                        <div class="code-line"></div>
+                        <div class="code-line"></div>
+                        <div class="code-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Powerful Features</h2>
+                    <p class="section__subtitle">Everything you need to ship high-quality software at scale.</p>
+                </div>
+
+                <div class="features__grid">
+                    <article class="feature-card reveal">
+                        <div class="feature-card__icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h3 class="feature-card__title">Fast Performance</h3>
+                        <p class="feature-card__text">Lightning-fast build times and optimized delivery for global users.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-card__icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h3 class="feature-card__title">Responsive Design</h3>
+                        <p class="feature-card__text">Adaptive interfaces that work seamlessly across desktop, tablet, and mobile.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-card__icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="feature-card__title">Enterprise Security</h3>
+                        <p class="feature-card__text">Built-in security protocols ensuring your data and code remain protected.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section section--alt">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__content">
+                        <h2 class="section__title">Innovation driven by community</h2>
+                        <p class="about__description">
+                            We believe in the power of open source and collaborative development. Our platform is built by developers, for developers, with a focus on simplicity and performance.
+                        </p>
+                        <ul class="about__list">
+                            <li><i class="fa-solid fa-check-circle"></i> High availability infrastructure</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Real-time collaboration tools</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Advanced analytics dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__brand">
+                <a href="#" class="logo-link">GitHub</a>
+                <p>Developing the future of software, one commit at a time.</p>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">&copy; 2024 GitHub Inc. All rights reserved.</p>
+                <div class="footer__socials">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
